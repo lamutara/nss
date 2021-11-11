@@ -131,7 +131,7 @@ if ($mysqli->connect_error) {
 	echo $mysqli->connect_error;
 	exit();
 } else {
-	$mysqli->set_charset("utf8");
+	$mysqli->set_charset("utf8mb4");
 }
 
 require_once('Exec.php');
